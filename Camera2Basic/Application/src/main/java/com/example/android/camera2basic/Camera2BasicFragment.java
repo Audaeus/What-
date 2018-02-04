@@ -117,6 +117,7 @@ import clarifai2.dto.model.ModelVersion;
 import clarifai2.dto.prediction.Concept;
 import clarifai2.dto.prediction.Prediction;
 import clarifai2.dto.model.output.ClarifaiOutput;
+import clarifai2.exception.ClarifaiException;
 
 
 
@@ -886,7 +887,6 @@ public class Camera2BasicFragment extends Fragment
                                                @NonNull TotalCaptureResult result) {
                     showToast("Saved: " + mFile);
                     Log.d(TAG, mFile.toString());
-                    unlockFocus();
                     final ClarifaiClient client = new ClarifaiBuilder("b77dbb1a73b3455d962ce7c63c38dcf4").buildSync();
                     Model<Concept> generalModel = client.getDefaultModels().generalModel();
 
@@ -894,6 +894,25 @@ public class Camera2BasicFragment extends Fragment
                             ClarifaiInput.forImage(mFile)
                     );
                     List<ClarifaiOutput<Concept>> result1 = request1.executeSync().get();
+                    String tempResult=""+result1.get(0).data();
+                            String codeblock=tempResult;
+                                    String[]option=new String[5];
+                        for (int i = 0; i <=4; i++) {
+                                 int cut = codeblock.indexOf("name=");
+                    codeblock = codeblock.substring(cut);
+                    cut=codeblock.indexOf("name=");
+                    int comma = codeblock.indexOf(',');
+                                option[i] = codeblock.substring(cut+5,comma);
+                                codeblock=codeblock.substring(comma);
+                    }
+                    Activity activity = getActivity();
+                    if (null != activity) {
+                        new AlertDialog.Builder(activity)
+                                .setMessage(option[0]+"\n"+option[1])
+                                .setPositiveButton(android.R.string.ok, null)
+                                .show();
+                    }
+                    unlockFocus();
                 }
             };
 

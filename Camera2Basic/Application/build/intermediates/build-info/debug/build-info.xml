@@ -6,7 +6,7 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.0.0"
-    timestamp="1517726913781"
+    timestamp="1517755741659"
     token="3412341038106489378"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -18,10 +18,10 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="521" />
+        duration="73" />
     <task
         name="verifier"
-        duration="4" />
+        duration="37" />
 
     <artifact
         location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_3.apk"
@@ -62,7 +62,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1517726913781"
+        timestamp="1517755741659"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_3.apk"

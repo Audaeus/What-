@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Feb 04 01:24:42 EST 2018
+#Sun Feb 04 08:02:01 EST 2018
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=C\:\\Users\\bill\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\drawable\\abc_seekbar_track_material.xml
