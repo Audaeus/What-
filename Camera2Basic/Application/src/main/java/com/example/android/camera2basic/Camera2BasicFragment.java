@@ -75,49 +75,9 @@ import clarifai2.api.ClarifaiBuilder;
 import clarifai2.api.ClarifaiClient;
 import clarifai2.dto.input.ClarifaiInput;
 import clarifai2.dto.prediction.Concept;
-import clarifai2.api.request.concept.AddConceptsRequest;
-import clarifai2.api.request.concept.GetConceptByIDRequest;
-import clarifai2.api.request.concept.GetConceptsRequest;
-import clarifai2.api.request.concept.ModifyConceptsRequest;
-import clarifai2.api.request.concept.SearchConceptsRequest;
-import clarifai2.api.request.feedback.ModelFeedbackRequest;
-import clarifai2.api.request.feedback.SearchesFeedbackRequest;
-import clarifai2.api.request.input.AddInputsRequest;
-import clarifai2.api.request.input.DeleteAllInputsRequest;
-import clarifai2.api.request.input.DeleteInputRequest;
-import clarifai2.api.request.input.DeleteInputsBatchRequest;
-import clarifai2.api.request.input.GetInputRequest;
-import clarifai2.api.request.input.GetInputsRequest;
-import clarifai2.api.request.input.GetInputsStatusRequest;
-import clarifai2.api.request.input.PatchInputMetadataRequest;
-import clarifai2.api.request.input.PatchInputRequest;
-import clarifai2.api.request.input.SearchClause;
-import clarifai2.api.request.input.SearchInputsRequest;
-import clarifai2.api.request.model.CreateModelRequest;
-import clarifai2.api.request.model.DeleteAllModelsRequest;
-import clarifai2.api.request.model.DeleteModelRequest;
-import clarifai2.api.request.model.DeleteModelVersionRequest;
-import clarifai2.api.request.model.DeleteModelsBatchRequest;
-import clarifai2.api.request.model.FindModelRequest;
-import clarifai2.api.request.model.GetModelInputsRequest;
-import clarifai2.api.request.model.GetModelRequest;
-import clarifai2.api.request.model.GetModelVersionRequest;
-import clarifai2.api.request.model.GetModelVersionsRequest;
-import clarifai2.api.request.model.GetModelsRequest;
-import clarifai2.api.request.model.ModifyModelRequest;
-import clarifai2.api.request.model.RunModelEvaluationRequest;
-import clarifai2.api.request.model.WorkflowPredictRequest;
-import clarifai2.api.request.model.PatchModelRequest;
 import clarifai2.api.request.model.PredictRequest;
-import clarifai2.api.request.model.TrainModelRequest;
-import clarifai2.dto.input.ClarifaiInput;
-import clarifai2.dto.model.DefaultModels;
 import clarifai2.dto.model.Model;
-import clarifai2.dto.model.ModelVersion;
-import clarifai2.dto.prediction.Concept;
-import clarifai2.dto.prediction.Prediction;
 import clarifai2.dto.model.output.ClarifaiOutput;
-import clarifai2.exception.ClarifaiException;
 
 
 
@@ -885,7 +845,7 @@ public class Camera2BasicFragment extends Fragment
                 public void onCaptureCompleted(@NonNull CameraCaptureSession session,
                                                @NonNull CaptureRequest request,
                                                @NonNull TotalCaptureResult result) {
-                    showToast("Saved: " + mFile);
+                    showToast("File is being sent to server");
                     Log.d(TAG, mFile.toString());
                     final ClarifaiClient client = new ClarifaiBuilder("b77dbb1a73b3455d962ce7c63c38dcf4").buildSync();
                     Model<Concept> generalModel = client.getDefaultModels().generalModel();
@@ -908,7 +868,7 @@ public class Camera2BasicFragment extends Fragment
                     Activity activity = getActivity();
                     if (null != activity) {
                         new AlertDialog.Builder(activity)
-                                .setMessage(option[0]+"\n"+option[1])
+                                .setMessage("OBJECTS"+"\n"+option[0]+"\n"+option[1]+"\n"+option[2]+"\n"+option[3]+"\n"+option[4])
                                 .setPositiveButton(android.R.string.ok, null)
                                 .show();
                     }
