@@ -6,7 +6,7 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.0.0"
-    timestamp="1517698641881"
+    timestamp="1517706941267"
     token="3412341038106489378"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -27,28 +27,19 @@
         location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\dep\dependencies.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_1.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_5.apk"
@@ -57,45 +48,54 @@
         location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
     <artifact
+        location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
         location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\outputs\apk\debug\Application-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1517698641881"
+        timestamp="1517706941267"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\outputs\apk\debug\Application-debug.apk"
