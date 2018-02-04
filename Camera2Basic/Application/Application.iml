@@ -94,6 +94,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/builds" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/check-manifest" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes-jar" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-runtime-classes" />
@@ -123,6 +124,7 @@
     <orderEntry type="library" name="com.android.support:support-v13-27.0.0" level="project" />
     <orderEntry type="library" name="com.android.support:animated-vector-drawable-27.0.0" level="project" />
     <orderEntry type="library" name="com.android.support:cardview-v7-27.0.0" level="project" />
+    <orderEntry type="library" name="com.squareup.okhttp3:okhttp:3.4.1@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-core-ui-27.0.0" level="project" />
     <orderEntry type="library" name="android.arch.lifecycle:common:1.0.0@jar" level="project" />
     <orderEntry type="library" name="android.arch.core:common:1.0.0@jar" level="project" />
@@ -133,7 +135,10 @@
     <orderEntry type="library" name="com.android.support:support-annotations:27.0.0@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-vector-drawable-27.0.0" level="project" />
     <orderEntry type="library" name="com.android.support:support-v4-27.0.0" level="project" />
+    <orderEntry type="library" name="com.google.code.gson:gson:2.7@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-fragment-27.0.0" level="project" />
+    <orderEntry type="library" name="com.clarifai.clarifai-api2:core:2.4.0@jar" level="project" />
+    <orderEntry type="library" name="com.squareup.okio:okio:1.9.0@jar" level="project" />
     <orderEntry type="library" name="android-android-27" level="project" />
   </component>
 </module>

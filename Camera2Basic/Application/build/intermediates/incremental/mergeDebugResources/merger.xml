@@ -1696,7 +1696,7 @@
         
             
             This app takes a picture of the an painting and determines objects in the painting.
-                             Credits: William Wang, Armanya Dalmia, Charles Ahn, Zhi Sheng Chua
+            Credits: William Wang, Armanya Dalmia, Charles Ahn, Zhi Sheng Chua
         
         ]]>
     </string></file><file path="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\src\main\res\values\colors.xml" qualifiers=""><color name="control_background">#cc4285f4</color></file><file path="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\src\main\res\values\strings.xml" qualifiers=""><string name="picture">Picture</string><string name="description_info">Info</string><string name="request_permission">This sample needs camera permission.</string><string name="camera_error">This device doesn\'t support Camera2 API.</string></file><file path="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\src\main\res\values\styles.xml" qualifiers=""><style name="MaterialTheme" parent="Theme.AppCompat.Light.NoActionBar">
