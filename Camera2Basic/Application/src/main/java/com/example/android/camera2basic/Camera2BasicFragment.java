@@ -845,7 +845,7 @@ public class Camera2BasicFragment extends Fragment
                 public void onCaptureCompleted(@NonNull CameraCaptureSession session,
                                                @NonNull CaptureRequest request,
                                                @NonNull TotalCaptureResult result) {
-                    showToast("File is being sent to server");
+                    showToast("Sending Files to Server");
                     Log.d(TAG, mFile.toString());
                     final ClarifaiClient client = new ClarifaiBuilder("b77dbb1a73b3455d962ce7c63c38dcf4").buildSync();
                     Model<Concept> generalModel = client.getDefaultModels().generalModel();
@@ -868,7 +868,7 @@ public class Camera2BasicFragment extends Fragment
                     Activity activity = getActivity();
                     if (null != activity) {
                         new AlertDialog.Builder(activity)
-                                .setMessage("OBJECTS"+"\n"+option[0]+"\n"+option[1]+"\n"+option[2]+"\n"+option[3]+"\n"+option[4])
+                                .setMessage("OBJECTS"+"\n"+"\n"+option[0]+"\n"+option[1]+"\n"+option[2]+"\n"+option[3]+"\n"+option[4])
                                 .setPositiveButton(android.R.string.ok, null)
                                 .show();
                     }
