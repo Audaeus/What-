@@ -845,7 +845,7 @@ public class Camera2BasicFragment extends Fragment
                 public void onCaptureCompleted(@NonNull CameraCaptureSession session,
                                                @NonNull CaptureRequest request,
                                                @NonNull TotalCaptureResult result) {
-                    showToast("Sending Files to Server");
+                    showToast("Sending image to Server");
                     Log.d(TAG, mFile.toString());
                     final ClarifaiClient client = new ClarifaiBuilder("b77dbb1a73b3455d962ce7c63c38dcf4").buildSync();
                     Model<Concept> generalModel = client.getDefaultModels().generalModel();

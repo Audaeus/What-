@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.0.aar\a4c6f121438885e207c42cd112ab8695\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e7404d217654969776b5fa566df9a7f2c1b1c337">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.0.aar\a0c493c45e35dda4ea18f9876814c0db\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="49e3859c5fa46728eed16dfd47b1e09d20e82f2e">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.0.aar\044a651886f4a464b8e202d5d623237c\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f73f6af8b32299bb364178188dcfe50379ed0da7">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.0.aar\139d9d8ef27999567de94eb21d355fd5\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e616b95568c5f38322799069485eb73f68ffec0a">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.0.aar\1d48823a6a12661f1414c3aa73318a26\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="62e71cc187cfcb1ba382b05c5f39f5d903973656">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\89b6b1db66f54a5749a025f2c45ca326\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.0.aar\4f391caf1162394eb77467eafa9105fc\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cf7abe2a43ffb1d475e94d0877ef3abb95fff56e">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.0.aar\feb7736fafb256afe0d3887fbc2c35a4\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="62e71cc187cfcb1ba382b05c5f39f5d903973656">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.0.aar\01b00b090af58593294ed0e095340f18\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9e3177fae918dbe4e58eccf197cfb56bfaf59803">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.0.aar\db2dbb6e55f232192eab35033e3a124b\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="89172db744f643c670ee7f9620b39ed460bc23fb">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.0.aar\8a3567bdb7495f1d0aa6ee5a7e65b030\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cf7abe2a43ffb1d475e94d0877ef3abb95fff56e">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.0.aar\6ad79c44bb68bc2c1ec9a56a3593437e\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="49e3859c5fa46728eed16dfd47b1e09d20e82f2e">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.0.aar\127fa3fec806c8d8702a4d0eba4bdb51\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7103318ab8a16fe56a325b7554b088f4d49e4700">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.0.aar\13db8053cb9b576a997501d068bacb8f\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9e3177fae918dbe4e58eccf197cfb56bfaf59803">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.0.aar\f132bf53d3d35b193f361e6e388b7646\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e7404d217654969776b5fa566df9a7f2c1b1c337">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\modules-2\files-2.1\com.clarifai.clarifai-api2\core\2.4.0\688a330299a348f9c290b8ba54a67c44b83da42f\core-2.4.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="688a330299a348f9c290b8ba54a67c44b83da42f">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.0.aar\a41a83a8b3dbb709510cd873328cbe5c\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f73f6af8b32299bb364178188dcfe50379ed0da7">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.0.aar\4742c95fd6dff94e06a81e9df9799cf6\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0e97fa8abc1a1a90087ce8b093d11f1a8e0f1214">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.0.aar\1038cfffc4b7f676ebd99cf4531ccdab\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="63b9cc88144f20f869dbd7dfb72a082000a57997">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.0.aar\b47ba075ff80295fbee0caaa93bd55ec\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0e97fa8abc1a1a90087ce8b093d11f1a8e0f1214">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\82b01b32f4823604de02569be68e7776\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.0.aar\680d8fc7b3c78cc4ad34f1a48ea02a52\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e616b95568c5f38322799069485eb73f68ffec0a">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.0.aar\ed6fd92343f641da35744465ecf824af\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7103318ab8a16fe56a325b7554b088f4d49e4700">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.0.0\a7782471b2a0de8fec071b8094a8aaf61c46ab70\support-annotations-27.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a7782471b2a0de8fec071b8094a8aaf61c46ab70">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.0.aar\2af84ac281cf94e53c54b2042e602ff6\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="89172db744f643c670ee7f9620b39ed460bc23fb">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bill\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.0.aar\f6dc715cc50eb2cfdfd6336888ee30e1\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="63b9cc88144f20f869dbd7dfb72a082000a57997">
+        <dex dex="C:\Users\bill\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+
+</items>

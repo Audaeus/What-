@@ -1,19 +1,4 @@
-#Sun Feb 04 21:44:58 EST 2018
-renamed.5=classes6.dex
-renamed.4=classes5.dex
-renamed.3=classes4.dex
-renamed.2=classes3.dex
-renamed.1=classes2.dex
+#Tue Feb 06 23:07:26 EST 2018
+base.0=C\:\\Users\\bill\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\304
+path.0=classes.dex
 renamed.0=classes.dex
-base.5=C\:\\Users\\bill\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\131
-base.4=C\:\\Users\\bill\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\129
-base.3=C\:\\Users\\bill\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\128
-base.2=C\:\\Users\\bill\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\127
-base.1=C\:\\Users\\bill\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\126
-base.0=C\:\\Users\\bill\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\130
-file.5=C\:\\Users\\bill\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\131\\classes.dex
-file.4=C\:\\Users\\bill\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\129\\classes.dex
-file.3=C\:\\Users\\bill\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\128\\classes.dex
-file.2=C\:\\Users\\bill\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\127\\classes.dex
-file.1=C\:\\Users\\bill\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\126\\classes.dex
-file.0=C\:\\Users\\bill\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\130\\classes.dex

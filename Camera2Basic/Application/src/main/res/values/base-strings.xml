@@ -19,9 +19,8 @@
     <string name="app_name">What?</string>
     <string name="intro_message">
         <![CDATA[
-        
-            
-            This app takes a picture of the an painting and determines objects in the painting.
+
+            This app takes a picture of the an painting and determines objects in the painting.\n\n
             Credits: William Wang, Armanya Dalmia, Charles Ahn, Zhi Sheng Chua
         
         ]]>

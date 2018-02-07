@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\bill\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\bill\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.0.aar\\b6c7633c2aedae2154a8a45659c1c8f9\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "source": "C:\\Users\\bill\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.0.aar\\db2dbb6e55f232192eab35033e3a124b\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\bill\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\b8577538e402ed9510f51fab7dba47bb\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "source": "C:\\Users\\bill\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\ed6fd92343f641da35744465ecf824af\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
