@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\bill\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\bill\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\ed6fd92343f641da35744465ecf824af\\res\\values-v17\\values-v17.xml",
+                    "source": "C:\\Users\\bill\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\2940ab522a3464d4bb909636b9a5eb61\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

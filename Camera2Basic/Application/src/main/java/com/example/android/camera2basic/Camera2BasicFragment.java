@@ -1,17 +1,5 @@
 /*
- * Copyright 2017 The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *       http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+main class
  */
 
 package com.example.android.camera2basic;
@@ -29,6 +17,7 @@ import android.graphics.Matrix;
 import android.graphics.Point;
 import android.graphics.RectF;
 import android.graphics.SurfaceTexture;
+import android.hardware.Camera;
 import android.hardware.camera2.CameraAccessException;
 import android.hardware.camera2.CameraCaptureSession;
 import android.hardware.camera2.CameraCharacteristics;
@@ -78,7 +67,6 @@ import clarifai2.dto.prediction.Concept;
 import clarifai2.api.request.model.PredictRequest;
 import clarifai2.dto.model.Model;
 import clarifai2.dto.model.output.ClarifaiOutput;
-
 
 
 public class Camera2BasicFragment extends Fragment
@@ -137,6 +125,10 @@ public class Camera2BasicFragment extends Fragment
      * Max preview height that is guaranteed by Camera2 API
      */
     private static final int MAX_PREVIEW_HEIGHT = 1080;
+/**
+ *variable to track autofocus
+ */
+private static boolean hasFocus=false;
 
     /**
      * {@link TextureView.SurfaceTextureListener} handles several lifecycle events on a
@@ -169,7 +161,7 @@ public class Camera2BasicFragment extends Fragment
     /**
      * ID of the current {@link CameraDevice}.
      */
-    private String mCameraId;
+    private String mCameraId="0";
 
     /**
      * An {@link AutoFitTextureView} for camera preview.
@@ -438,7 +430,8 @@ public class Camera2BasicFragment extends Fragment
     public void onViewCreated(final View view, Bundle savedInstanceState) {
         view.findViewById(R.id.picture).setOnClickListener(this);
         view.findViewById(R.id.info).setOnClickListener(this);
-        mTextureView = (AutoFitTextureView) view.findViewById(R.id.texture);
+        view.findViewById(R.id.flip).setOnClickListener(this);
+        mTextureView = view.findViewById(R.id.texture);
     }
 
     @Override
@@ -506,12 +499,23 @@ public class Camera2BasicFragment extends Fragment
                 CameraCharacteristics characteristics
                         = manager.getCameraCharacteristics(cameraId);
 
-                // We don't use a front facing camera in this sample.
+                // Control front or back Camera
                 Integer facing = characteristics.get(CameraCharacteristics.LENS_FACING);
-                if (facing != null && facing == CameraCharacteristics.LENS_FACING_FRONT) {
+                 if(mCameraId.equals("0")) {
+                  if (facing != null && facing == CameraCharacteristics.LENS_FACING_BACK) {
                     continue;
+                 }
+            }else if(mCameraId.equals("1")){
+                    if (facing != null && facing == CameraCharacteristics.LENS_FACING_FRONT) {
+                        continue;
+                    }
                 }
-
+                int[] getFocus=characteristics.get(CameraCharacteristics.CONTROL_AF_AVAILABLE_MODES);
+                if(getFocus[0]!=1){
+                hasFocus=true;
+            }else{
+                hasFocus=false;
+            }
                 StreamConfigurationMap map = characteristics.get(
                         CameraCharacteristics.SCALER_STREAM_CONFIGURATION_MAP);
                 if (map == null) {
@@ -592,8 +596,6 @@ public class Camera2BasicFragment extends Fragment
                 // Check if the flash is supported.
                 Boolean available = characteristics.get(CameraCharacteristics.FLASH_INFO_AVAILABLE);
                 mFlashSupported = available == null ? false : available;
-
-                mCameraId = cameraId;
                 return;
             }
         } catch (CameraAccessException e) {
@@ -776,7 +778,11 @@ public class Camera2BasicFragment extends Fragment
      * Initiate a still image capture.
      */
     private void takePicture() {
-        lockFocus();
+        if(hasFocus==true) {
+            lockFocus();
+        }else{
+            runPrecaptureSequence();
+        }
     }
 
     /**
@@ -935,6 +941,16 @@ public class Camera2BasicFragment extends Fragment
                             .show();
                 }
                 break;
+            }
+            case R.id.flip:{
+                if(mCameraId.equals("0")){
+                    mCameraId = "1";
+                }
+                else {
+                    mCameraId = "0";
+                }
+                closeCamera();
+                onResume();
             }
         }
     }
