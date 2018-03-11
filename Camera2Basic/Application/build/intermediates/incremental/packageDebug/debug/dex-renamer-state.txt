@@ -1,4 +1,0 @@
-#Sun Mar 04 13:29:36 EST 2018
-base.0=C\:\\Users\\bill\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-path.0=classes.dex
-renamed.0=classes.dex
