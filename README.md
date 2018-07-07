@@ -1,5 +1,5 @@
 # What?
-App that takes an image and shows information based off of it.
+App that takes an image and shows information based off of it. It displays the 5 of the most prominent objects/themes shown in the image.
           
 &nbsp;&nbsp;         
 
